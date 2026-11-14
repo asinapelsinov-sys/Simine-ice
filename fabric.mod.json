@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "snowstorm",
+  "version": "${version}",
+  "name": "Snowstorm",
+  "description": "Adds an intense blizzard weather event with freezing, darkness and snow particles.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.snowstorm.SnowstormMod"],
+    "client": ["com.example.snowstorm.client.SnowstormClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
